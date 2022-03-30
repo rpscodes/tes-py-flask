@@ -11,7 +11,7 @@ app = Flask(__name__)
 # the associated function.
 @app.route('/')
 # ‘/’ URL is bound with hello_world() function.
-def hello_world():
+def index():
 	return 'Hello World'
 
 # main driver function
